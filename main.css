@@ -1,0 +1,34 @@
+body{
+    background-color: pink;
+    text-align: center;
+    font-size: medium;
+
+
+
+}
+.main{ 
+    flex: none;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+.card :hover{
+    color:blue
+}
+.main{
+    font-size: x-large;
+    gap: 20px;
+}
+.main a{
+    color: black;
+    gap: 20px;
+    flex: none;
+    flex-direction: row;
+}
